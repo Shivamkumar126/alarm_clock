@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(30, 28, 28);
+}
+#main_box{
+    background-color:rgb(67, 67, 215);
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    font-size: xx-large;
+}
+#time{
+    background-color:rgb(213, 213, 233) ;
+    position: relative;
+    display: flex;
+    top: 10%;
+    left: 30%;
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
+#alarm_time{
+    position: relative;
+    top: 15%;
+    /* border: 1px solid black; */
+    padding: 1rem;
+}
+
+.time_box{
+    position: relative;
+    
+    display: inline-block;
+    width: 7%;
+    /* height: 20px; */
+    border: 1px solid black;
+}
+#set_alarm{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#alarm_list{
+    /* background-color:rgb(213, 213, 233);  */  
+    overflow: auto;
+    max-height: 200px;
+    position: relative;
+    top: 20%;
+    color: white;
+  
+    
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#alarm_list::-webkit-scrollbar {
+    display: none;
+  }
+/* Hide scrollbar for IE, Edge and Firefox */
+.alarm_list {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+#alarm_list ul{
+    display: flex;
+    
+    list-style: none;
+}
