@@ -1,2 +1,2 @@
 # alarm_clock
-Alarm clock using javascript
+Alarm clock using HTML/CSS and javascript
