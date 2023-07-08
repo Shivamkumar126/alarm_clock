@@ -1,8 +1,11 @@
-body{
+body {
     background-color: rgb(30, 28, 28);
 }
-#main_box{
-    background-color:rgb(67, 67, 215);
+
+/* designing the main outer box */
+
+#main_box {
+    background-color: rgb(67, 67, 215);
     position: relative;
     top: 100px;
     margin: auto;
@@ -13,8 +16,11 @@ body{
     text-align: center;
     font-size: xx-large;
 }
-#time{
-    background-color:rgb(213, 213, 233) ;
+
+/* setting the dimension of current time box */
+
+#time {
+    background-color: rgb(213, 213, 233);
     position: relative;
     display: flex;
     top: 10%;
@@ -24,51 +30,73 @@ body{
     border: 1px solid red;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 
-#alarm_time{
+#alarm_time {
     position: relative;
     top: 15%;
-    /* border: 1px solid black; */
     padding: 1rem;
 }
 
-.time_box{
+.time_box {
     position: relative;
-    
+
     display: inline-block;
     width: 7%;
-    /* height: 20px; */
+
     border: 1px solid black;
 }
-#set_alarm{
+
+#set_alarm {
     display: block;
     margin: auto;
     margin-top: 1rem;
+    background-color: rgb(40, 13, 189);
+    color: antiquewhite;
 }
 
-#alarm_list{
-    /* background-color:rgb(213, 213, 233);  */  
+/* designing the alarm lst */
+
+#alarm_list {
+
     overflow: auto;
-    max-height: 200px;
+    width: 90%;
+    left: 5%;
+    max-height: 250px;
     position: relative;
-    top: 20%;
+    top: 10%;
     color: white;
-  
-    
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 #alarm_list::-webkit-scrollbar {
     display: none;
-  }
+}
+
 /* Hide scrollbar for IE, Edge and Firefox */
 .alarm_list {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
-#alarm_list ul{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#alarm_list ul {
     display: flex;
-    
+
     list-style: none;
+}
+
+#alarm_list h2 {
+
+    text-align: center;
+    margin: auto;
+
+}
+
+#alarm_list button {
+    position: relative;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgb(40, 13, 189);
+    color: antiquewhite;
 }
