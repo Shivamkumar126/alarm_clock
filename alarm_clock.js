@@ -101,8 +101,7 @@ function setAlarmList() {
                 onOff[i].value = "on";
                 onOff[i].innerHTML = "ON";
                 alarmTime = sessionStorage.getItem(i);
-                console.log(alarmTime);
-                console.log(onOff[i].value);
+                
 
                 ringingAlarm();
 
